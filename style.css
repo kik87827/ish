@@ -1,0 +1,28 @@
+.viewport_body{}
+.viewport_template{}
+.header_wrap{}
+.header_main_row{}
+.header_main_row .logo_cols{}
+.header_main_row .util_cols{}
+.toplogo{}
+.toplogo_link{}
+.toplogo_link img{}
+.shape_util_wrap{}
+.shape_util_list{}
+.shape_util_list > li{}
+.shape_util_list > li:last-of-type{}
+.shape_util{}
+.shape_util.ico_bell{}
+.shape_fraction{}
+.baguette_obj_wrap{}
+.baguette_obj_list{}
+.baguette_obj_list > li{}
+.baguette_obj_list > li:last-of-type{}
+.baguette_obj_item{}
+.baguette_obj_item .key_cols{}
+.baguette_obj_item .value_cols{}
+.baguette_keytext{}
+.baguette_valuetext{}
+.middle_wrap{}
+.middle_wrap .left_cols{}
+.middle_wrap .right_cols{}
