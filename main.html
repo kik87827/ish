@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="viewport_body">
@@ -15,7 +19,7 @@
             <div class="util_cols">
               <div class="shape_util_wrap">
                 <ul class="shape_util_list">
-                  <li><a href="#" class="shape_util ico_bell"><span class="shape_fraction">0</span></a></li>
+                  <li><a href="#" class="shape_util ico_bell"><span class="shape_fraction">1</span></a></li>
                 </ul>
               </div>
               <div class="baguette_obj_wrap">
@@ -55,7 +59,7 @@
                 </div>
                 <div class="api_rendar_zone">
                   <!-- api map -->
-                  <div style="display:flex; align-items:center;justify-content: center; text-align:center; color:#000">
+                  <div style="flex:1; color:#fff; display:flex; align-items:center;justify-content: center; text-align:center;">
                     API
                   </div>
                   <!-- // api map -->
@@ -65,8 +69,14 @@
                 <div class="data_tb_package">
                   <div class="data_thead_wrap">
                     <table class="data_thead_tb"> 
+                      <colgroup>
+                        <col />
+                        <col style="width:13%" />
+                        <col style="width:13%" />
+                        <col style="width:13%" />
+                      </colgroup>
                       <tr>
-                        <th class="align_left"><span class="data_thtext">현장명</span></th>
+                        <th class="define_main"><span class="data_thtext">현장명</span></th>
                         <th><span class="data_thtext">전체</span></th>
                         <th><span class="data_thtext">정상</span></th>
                         <th><span class="data_thtext">장애</span></th>
@@ -75,10 +85,26 @@
                   </div>
                   <div class="data_tbody_wrap">
                     <table class="data_tbody_tb"> 
+                      <colgroup>
+                        <col />
+                        <col style="width:13%" />
+                        <col style="width:13%" />
+                        <col style="width:13%" />
+                      </colgroup>
                       <tr class="active">
                         <td class="define_main">
                           <div class="linkage_title_wrap">
-                            <a href="#" class="linkage_title has_dot"><i class="ico warn"></i><span class="text_node">마곡동 1410 공동주택건설공사<i class="ico_update"></i></span></a>
+                            <a href="#" class="linkage_title has_dot"><i class="ico warn"></i><span class="text_node">마곡동 1410 공동주택건설공사</span><i class="ico_update"></i></a>
+                          </div>
+                        </td>
+                        <td><span class="data_tdtext">23</span></td>
+                        <td><span class="data_tdtext">22</span></td>
+                        <td><span class="data_tdtext emp_red">1</span></td>
+                      </tr>
+                      <tr>
+                        <td class="define_main">
+                          <div class="linkage_title_wrap">
+                            <a href="#" class="linkage_title has_dot"><i class="ico warn"></i><span class="text_node">마곡동 1410 공동주택건설공사 마곡동 1410 공동주택건설공사마곡동 1410 공동주택건설공사</span><i class="ico_update"></i></a>
                           </div>
                         </td>
                         <td><span class="data_tdtext">23</span></td>
@@ -86,6 +112,16 @@
                         <td><span class="data_tdtext active">1</span></td>
                       </tr>
                       <tr>
+                        <td class="define_main">
+                          <div class="linkage_title_wrap">
+                            <a href="#" class="linkage_title has_dot"><i class="ico warn"></i><span class="text_node">마곡동 1410 공동주택건설공사</span><i class="ico_update"></i></a>
+                          </div>
+                        </td>
+                        <td><span class="data_tdtext">23</span></td>
+                        <td><span class="data_tdtext">22</span></td>
+                        <td><span class="data_tdtext active">1</span></td>
+                      </tr>
+                      <!-- <tr>
                         <td class="define_main">
                           <div class="linkage_title_wrap">
                             <a href="#" class="linkage_title"><span class="text_node">마곡동 1410 공동주택건설공사</span></a>
@@ -104,7 +140,7 @@
                         <td><span class="data_tdtext">4</span></td>
                         <td><span class="data_tdtext">4</span></td>
                         <td><span class="data_tdtext">0</span></td>
-                      </tr>
+                      </tr> -->
                     </table>
                   </div>
                 </div>
@@ -125,37 +161,229 @@
                     <div class="main_row">
                       <div class="box_video_rendar">
                         <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                      <!-- video -->
+                      <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                      <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                      
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01마곡제2지구_TW_01마곡제2지구_TW_01마곡제2지구_TW_01마곡제2지구_TW_01마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="active">
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                      <div class="section_layer">
+                        <div class="layer_inner">
+                          <div class="sec_box_container">
+                            <div class="sec_top_row">
+                              <p class="sec_top_text"><i class="ico"></i><span class="text_node">장애발생</span></p>
+                            </div>
+                            <div class="sec_middle_row">
+                              <div class="sec_info_tb_wrap">
+                                <table class="sec_info_tb">
+                                  <tr>
+                                    <th><span class="info_key_text">카메라 이름</span></th>
+                                    <td><span class="info_value_text">Channel: sh00</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th><span class="info_key_text">상태</span></th>
+                                    <td><span class="info_value_text emp_red">연결 끊김</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th><span class="info_key_text">발생 시각</span></th>
+                                    <td><span class="info_value_text">2025.10.10 11:23:11</span></td>
+                                  </tr>
+                                  <tr>
+                                    <th><span class="info_key_text">사유</span></th>
+                                    <td><span class="info_value_text">네트워크 불안정 또는 전원 차단 가능성</span></td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
                         <video width="640" height="360" class="video_dom" autoplay playinline muted>
                           <source src="./assets/images/sample_video.mp4" type="video/mp4">
                         </video>
                         <!-- // video -->
                       </div>
-                      <div class="section_layer">
-                        <div class="layer_inner">
-                          <div class="sec_top_row"><p class="sec_top_text"><i class="ico"></i><span class="text_node">장애발생</span></p></div>
-                          <div class="sec_middle_row">
-                            <div class="sec_info_tb_wrap">
-                              <table class="sec_info_tb">
-                                <tr>
-                                  <th><span class="info_key_text">카메라 이름</span></th>
-                                  <td><span class="info_value_text">Channel: sh00</span></td>
-                                </tr>
-                                <tr>
-                                  <th><span class="info_key_text">상태</span></th>
-                                  <td><span class="info_value_text emp_red">연결 끊김</span></td>
-                                </tr>
-                                <tr>
-                                  <th><span class="info_key_text">발생 시각</span></th>
-                                  <td><span class="info_value_text">2025.10.10 11:23:11</span></td>
-                                </tr>
-                                <tr>
-                                  <th><span class="info_key_text">사유</span></th>
-                                  <td><span class="info_value_text">네트워크 불안정 또는 전원 차단 가능성</span></td>
-                                </tr>
-                              </table>
-                            </div>
-                          </div>
-                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box_gallery_item">
+                    <div class="head_row">
+                      <div class="box_head_title">
+                        <i class="ico"></i>
+                        <span class="text_node">마곡제2지구_TW_01</span>
+                      </div>
+                    </div>
+                    <div class="main_row">
+                      <div class="box_video_rendar">
+                        <!-- video -->
+                        <img src="./assets/images/temp_video_img.png" class="video_dom" alt="">
+                        <!-- // video -->
                       </div>
                     </div>
                   </div>
